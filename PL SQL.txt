@@ -1,0 +1,124 @@
+--------------------------------------------------
+    
+       /  My sql basics /
+
+            DDL                   DML                     DRL(DQL)                         DCL                                  TCL
+
+ ---> CREATE                 --->  INSERT               ---> SELECT                   ---> GRANT                          ---> COMMIT 
+
+ ---> DROP                   --->  UPDATE                                             ---> REVOKE                         ---> ROLLBACK
+
+ ---> TRUNCATE               --->  DELETE                                                                                 ---> SAVE POINT
+
+ ---> ALTER                  --->  MERGE
+
+ ---> RENAME
+
+ >>>>>   Distinct
+ >>>>>   Select     
+ >>>>>   Insert into
+ >>>>>   From
+ >>>>>   Where
+ >>>>>   Aliases
+ >>>>>   Order by
+ >>>>>   Union
+ >>>>>   
+
+
+
+
+ >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   Arithmetic Operators   
+
+ >>>>>   +	Add	
+ >>>>>   -	Subtract	
+ >>>>>   *	Multiply	
+ >>>>>   /	Divide	
+
+
+ >>>>>   %	Modulo >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     Comparison Operators
+
+ >>>>>   =	     Equal to	
+ >>>>>   >	     Greater than	
+ >>>>>   <	     Less than	
+ >>>>>   >=	     Greater than or equal to	
+ >>>>>   <=	     Less than or equal to	
+ >>>>>   <>(!=)	     Not equal to
+ >>>>>   In()        Matches a value in a list
+ >>>>>   Between     Within a range (inclusive)
+ >>>>>   Is Null     Returns NULL value
+ >>>>>   Is not Null    Returns Non-NULL value
+>>>>>    Like        Pattern matching with % and _   
+ >>>>>   Not         Negates a condition  
+ >>>>>   And         Returns a value if the both Conditions are true
+ >>>>>    Or         Returns a value if any one of the condition is true
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   Null Operators
+
+ >>>>>   Nvl
+ >>>>>   Nvl 2
+ >>>>>   Null If
+ >>>>>   Coalesce
+ >>>>>   Decode
+ >>>>>   Case
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Set Operators
+
+ >>>>>   Union all
+ >>>>>   Union
+ >>>>>   Minus
+ >>>>>   Intersect
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   String Functions
+
+ >>>>>   ASCII            	Returns the ASCII value for the specific character
+ >>>>>   CHAR_LENGTH()	        Returns the length of a string (in characters)
+ >>>>>   CONCAT	(||)            Adds two or more expressions together
+ >>>>>   INSTR	                Returns the position of the first occurrence of a string in another string
+ >>>>>   SUBSTR	                Extracts a substring from a string (starting at any position)
+ >>>>>   LOWER	                Converts a string to lower-case
+ >>>>>   UPPER	                Converts a string to upper-case
+ >>>>>   TRIM	                Removes leading and trailing spaces from a string 
+ >>>>>   LTRIM	                Removes leading spaces from a string
+ >>>>>   RTRIM	                Removes trailing spaces from a string
+ >>>>>   LPAD	                Left-pads a string with another string, to a certain length
+ >>>>>   RPAD	                Right-pads a string with another string, to a certain length
+ >>>>>   POSITION               Returns the position of the first occurrence of a substring in a string
+ >>>>>   REPEAT	                Repeats a string as many times as specified
+ >>>>>   REVERSE	        Reverses a string and returns the result
+ >>>>>   REPLACE	        Replaces all occurrences of a substring within a string, with a new substring
+ >>>>>   TRANSLATE              String by String transaltion occurs
+ 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    Numeric Functions
+
+ >>>>>   ABS	        Returns the absolute value of a number
+ >>>>>   AVG	        Returns the average value of an expression
+ >>>>>   SUM	        Calculates the sum of a set of values
+ >>>>>   COUNT	        Returns the number of records returned by a select query
+ >>>>>   CEIL	        Returns the smallest integer value that is >= to a number
+ >>>>>   FLOOR	        Returns the largest integer value that is <= to a number
+ >>>>>   TRUNC   	Truncates a number to the specified number of decimal places
+ >>>>>   ROUND	        Rounds a number to a specified number of decimal places
+ >>>>>   DIV	        Used for integer division
+ >>>>>   MOD	        Returns the remainder of a number divided by another number
+ >>>>>   EXP	        Returns e raised to the power of a specified number
+ >>>>>   DEGREES      	Converts a value in radians to degrees
+ >>>>>   MAX	        Returns the maximum value in a set of values
+ >>>>>   MIN	        Returns the minimum value in a set of values
+ >>>>>   POWER	        Returns the value of a number raised to the power of another number
+ >>>>>   RAND	        Returns a random number
+ >>>>>   SQRT     	Returns the square root of a number
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>     MySQL Date Functions
+
+ >>>>>   ADDDATE	           Adds a time/date interval to a date and then returns the date
+ >>>>>   CURRENT_DATE	   Returns the current date
+ >>>>>   DATE	           Extracts the date part from a datetime expression
+ >>>>>   DATE_FORMAT	   Formats a date
+ >>>>>   DATE_SUB	   Subtracts a time/date interval from a date and then returns the date
+ >>>>>   SYSDATE	   Returns the current date and time
+ >>>>>   TO_DATE	   Returns a date based on a string and a format
+ >>>>>   QUARTER	   Returns the quarter of the year for a given date value
+ >>>>>   
